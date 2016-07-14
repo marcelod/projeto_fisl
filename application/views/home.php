@@ -10,4 +10,15 @@
     </p>
   </div>
 
+  <div>
+  	<ul>
+  	<?php foreach ($produtos as $produto): ?>
+
+		<li>
+			(<?php echo $produto->id ?>) <?php echo $produto->nome ?>
+		</li>
+  	<?php endforeach ?>
+  	</ul>
+  </div>
+
 </div> <!-- /container -->
